@@ -43,6 +43,28 @@ RUN apt-get update && \
     whatweb \
     swaks \
     seclists \
+    # Additions:
+    nikto \
+    sqlmap \
+    john \
+    hashcat \
+    hydra \
+    gobuster \
+    wfuzz \
+    dnsenum \
+    dnsrecon \
+    enum4linux \
+    smbclient \
+    metasploit-framework \
+    sslscan \
+    testssl.sh \
+    nuclei \
+    amass \
+    subfinder \
+    httprobe \
+    # httpx \
+    knockpy \
+    masscan \
     # JSON processor
     jq \
     && apt-get clean \
